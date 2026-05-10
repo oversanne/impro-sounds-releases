@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>ImproSounds</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sun, 10 May 2026 18:24:49 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://oversanne.github.io/impro-sounds-releases/ImproSounds_v1.0_b3.zip" length="1869848" type="application/octet-stream" sparkle:edSignature="xXOwAexUPvKv6p+t2sPc5sd95hu70n/StiZh4kEMmbQMy6MUFahf1hRMSrluyGvmdD90UmP0Fqh0VeMAzJSuAw=="/>
+        </item>
+    </channel>
+</rss>
