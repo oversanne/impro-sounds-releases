@@ -170,7 +170,11 @@
                 if (items.length > 0) {
                     const latest = items[0];
                     const enclosure = latest.querySelector('enclosure');
-                    const version = enclosure.getAttribute('sparkle:shortVersionString');
+                    
+                    // Récupère la version via le tag title (généré par Sparkle)
+                    const titleNode = latest.querySelector('title');
+                    const version = titleNode ? titleNode.textContent : 'Inconnue';
+                    
                     const url = enclosure.getAttribute('url');
                     
                     const btn = document.getElementById('downloadBtn');
